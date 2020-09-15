@@ -27,7 +27,9 @@ function Navbar() {
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
-                    <img src='./img/logo.png' width="150"></img>
+                    <Link>
+                        <img src='./img/logo.png' width="150"></img>
+                    </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -43,7 +45,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                            A LaCart
+                            DRINKS
                             </Link>
                         </li>
                         <li className='nav-item'>
@@ -52,7 +54,7 @@ function Navbar() {
                                 className='nav-links'
                                 onClick={closeMobileMenu}
                             >
-                            Prepared Plates
+                            A LACART
                             </Link>
                         </li>
 
@@ -62,7 +64,7 @@ function Navbar() {
                                 className='nav-links-mobile'
                                 onClick={closeMobileMenu}
                             >
-                            Place an Order
+                            SIGN UP
                             </Link>
                         </li>
                     </ul>

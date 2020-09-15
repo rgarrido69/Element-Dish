@@ -5,10 +5,10 @@ import './Cards.css';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out this dish</h1>
+            <h1>Check out these delicious dishes!</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
-                    <ul className='cards_items'>
+                    <ul className='cards__items'>
                         <CardItems
                             src='img/pizza2.jpeg'
                             text='By far the best pizza this side of Italy'
@@ -21,8 +21,20 @@ function Cards() {
                             label='Dig right in'
                             path='/services'
                         />
+                        <CardItems
+                            src='img/sandwich.jpeg'
+                            text='Explosion of taste'
+                            label='Dig right in'
+                            path='/services'
+                        />
+                        <CardItems
+                            src='img/sandwich.jpeg'
+                            text='Explosion of taste'
+                            label='Dig right in'
+                            path='/services'
+                        />
                     </ul>
-                    <ul className='cards_items'>
+                    <ul className='cards__items'>
                         <CardItems
                             src='img/burger.jpeg'
                             text='Delicious and Juicy'
