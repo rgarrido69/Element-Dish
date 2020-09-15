@@ -7,7 +7,9 @@ function HeroSection() {
     return (
         <div className='hero-container'>
             <h1>Virtual Restaurant</h1>
-            <p>Freshness Delivered</p>
+            <p>We make daily dishes fresh</p>
+            <h2>Check back every Monday for different specials</h2>
+            <br></br>
             <div>
                 <Button 
                     className='btns' 
